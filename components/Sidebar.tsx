@@ -19,6 +19,7 @@ interface SidebarProps {
   onJumpToNode: (nodeId: string, chapterId?: string) => void;
   isCollapsed: boolean;
   onToggle: () => void;
+  responsiveMode: 'desktop' | 'drawer';
 }
 
 const renderTypeIcon = (type: string) => {
@@ -43,13 +44,12 @@ const Sidebar: React.FC<SidebarProps> = ({
   chapters,
   activeChapterId,
   onSelectChapter,
-  showChapterRelations,
-  setShowChapterRelations,
   onPatchUpload,
   fullData,
   onJumpToNode,
   isCollapsed,
-  onToggle
+  onToggle,
+  responsiveMode
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -67,20 +67,17 @@ const Sidebar: React.FC<SidebarProps> = ({
     reader.readAsText(file);
   };
 
-  // Search logic
   const searchResults = useMemo(() => {
     if (searchQuery.length < 2) return [];
     const q = searchQuery.toLowerCase();
     const matches: { id: string, label: string, type: string, chapterId?: string, chapterTitle?: string }[] = [];
 
-    // Check chapters
     fullData.chapters.forEach(c => {
       if (c.title.toLowerCase().includes(q)) {
         matches.push({ id: c.chapter_id, label: c.title, type: 'chapter' });
       }
     });
 
-    // Check nodes
     fullData.nodes.forEach(n => {
       if (n.label.toLowerCase().includes(q) || n.keywords.toLowerCase().includes(q)) {
         const ch = fullData.chapters.find(c => c.chapter_id === n.chapter_id);
@@ -91,7 +88,6 @@ const Sidebar: React.FC<SidebarProps> = ({
     return matches.slice(0, 10);
   }, [searchQuery, fullData]);
 
-  // Click outside search
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
@@ -102,15 +98,22 @@ const Sidebar: React.FC<SidebarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  if (isCollapsed) {
+  // Drawer classes vs Desktop classes
+  const baseClasses = "bg-white h-screen flex flex-col font-sans z-50 transition-all duration-300 ease-in-out";
+  const layoutClasses = responsiveMode === 'desktop' 
+    ? `w-80 border-r border-slate-200 shadow-lg ${isCollapsed ? '-ml-80' : 'ml-0'}`
+    : `fixed top-0 left-0 w-[280px] shadow-2xl border-r border-slate-200 ${isCollapsed ? '-translate-x-full' : 'translate-x-0'}`;
+
+  // Collapsed handle for desktop only
+  if (responsiveMode === 'desktop' && isCollapsed) {
     return (
-      <div className="w-10 flex-shrink-0 bg-white border-r border-slate-200 h-screen flex flex-col items-center py-4 z-30 transition-all duration-300">
+      <div className="w-10 flex-shrink-0 bg-white border-r border-slate-200 h-screen flex flex-col items-center py-4 z-40 transition-all duration-300">
         <button onClick={onToggle} className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded mb-4 transition-colors" aria-label="Rozwiń menu" title="Rozwiń">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5l7 7-7 7" /></svg>
         </button>
         <div className="flex-1 w-full relative">
            <div className="absolute top-10 left-1/2 -translate-x-1/2 rotate-90 whitespace-nowrap origin-center">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Atlas Psychologiczny</span>
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">{UI_PL.history_atlas}</span>
            </div>
         </div>
       </div>
@@ -118,39 +121,39 @@ const Sidebar: React.FC<SidebarProps> = ({
   }
 
   return (
-    <div className="w-80 flex-shrink-0 bg-white border-r border-slate-200 h-screen flex flex-col font-sans z-30 shadow-lg transition-all duration-300">
+    <div className={`${baseClasses} ${layoutClasses}`}>
       <div className="p-4 border-b border-slate-200 bg-slate-50 flex justify-between items-start">
         <div>
-          <h1 className="text-xl font-bold text-slate-800 mb-1">Atlas Psychologiczny</h1>
-          <p className="text-xs text-slate-500">Interaktywna oś rozwoju psychologii</p>
+          <h1 className="text-lg font-bold text-slate-800 leading-tight">Atlas Psychologiczny</h1>
+          <p className="text-[10px] text-slate-500 uppercase tracking-wider mt-1 opacity-70">Historia i Współczesność</p>
         </div>
         <button onClick={onToggle} className="p-1 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded transition-colors" aria-label="Zwiń menu" title="Zwiń">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 19l-7-7 7-7m8 14l-7-7 7-7" /></svg>
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
         </button>
       </div>
 
       <div className="flex-1 overflow-y-auto p-4 space-y-6">
         {/* Mode Selector */}
-        <div className="flex bg-slate-100 p-1 rounded-lg">
-          <button onClick={() => setMode(ViewMode.Story)} className={`flex-1 py-1.5 text-sm font-medium rounded-md transition-all ${mode === ViewMode.Story ? 'bg-white shadow text-blue-600' : 'text-slate-500 hover:text-slate-700'}`}>{UI_PL.story}</button>
-          <button onClick={() => setMode(ViewMode.Explore)} className={`flex-1 py-1.5 text-sm font-medium rounded-md transition-all ${mode === ViewMode.Explore ? 'bg-white shadow text-blue-600' : 'text-slate-500 hover:text-slate-700'}`}>{UI_PL.explore}</button>
+        <div className="flex bg-slate-100 p-1 rounded-xl">
+          <button onClick={() => setMode(ViewMode.Story)} className={`flex-1 py-1.5 text-xs font-bold rounded-lg transition-all ${mode === ViewMode.Story ? 'bg-white shadow-sm text-blue-600' : 'text-slate-500 hover:text-slate-700'}`}>{UI_PL.story}</button>
+          <button onClick={() => setMode(ViewMode.Explore)} className={`flex-1 py-1.5 text-xs font-bold rounded-lg transition-all ${mode === ViewMode.Explore ? 'bg-white shadow-sm text-blue-600' : 'text-slate-500 hover:text-slate-700'}`}>{UI_PL.explore}</button>
         </div>
 
         {/* Global Study Layer Toggle */}
-        <div className="p-3 bg-purple-50 rounded-lg border border-purple-100 flex items-center justify-between">
+        <div className="p-3 bg-purple-50 rounded-xl border border-purple-100 flex items-center justify-between">
             <div className="flex flex-col">
-                <label className="text-xs font-bold text-purple-700 uppercase">{UI_PL.study_layer}</label>
-                <span className="text-[10px] text-purple-400">Pojęcia, Metody, {UI_PL.context}</span>
+                <label className="text-[10px] font-black text-purple-700 uppercase tracking-wider">{UI_PL.study_layer}</label>
+                <span className="text-[9px] text-purple-400 leading-none">Dodatkowe pojęcia i metody</span>
             </div>
-            <button onClick={() => setFilter({ ...filter, studyLayerEnabled: !filter.studyLayerEnabled })} className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors ${filter.studyLayerEnabled ? 'bg-purple-600' : 'bg-slate-300'}`}>
-              <span className={`inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${filter.studyLayerEnabled ? 'translate-x-6' : 'translate-x-1'}`} />
+            <button onClick={() => setFilter({ ...filter, studyLayerEnabled: !filter.studyLayerEnabled })} className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${filter.studyLayerEnabled ? 'bg-purple-600' : 'bg-slate-300'}`}>
+              <span className={`inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${filter.studyLayerEnabled ? 'translate-x-5' : 'translate-x-1'}`} />
             </button>
         </div>
 
         {/* Learning Toggles (Story Mode Only) */}
         {mode === ViewMode.Story && (
           <div className="space-y-3">
-            <label className="block text-xs font-semibold text-slate-500 uppercase mb-1">{UI_PL.learning_layers}</label>
+            <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">{UI_PL.learning_layers}</label>
             <div className="space-y-2">
               {[
                 { key: 'showPeople', label: UI_PL.people, color: 'text-blue-600', bg: 'bg-blue-50' },
@@ -160,10 +163,10 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <button 
                     key={layer.key}
                     onClick={() => setFilter({ ...filter, [layer.key]: !((filter as any)[layer.key]) })}
-                    className={`w-full flex items-center justify-between p-2 rounded border transition-all ${ (filter as any)[layer.key] ? `${layer.bg} border-current ${layer.color}` : 'bg-white border-slate-100 text-slate-400' }`}
+                    className={`w-full flex items-center justify-between p-2.5 rounded-xl border transition-all ${ (filter as any)[layer.key] ? `${layer.bg} border-current ${layer.color}` : 'bg-white border-slate-100 text-slate-400' }`}
                 >
-                    <span className="text-xs font-bold uppercase">{layer.label}</span>
-                    <div className={`w-4 h-4 rounded-full flex items-center justify-center border ${ (filter as any)[layer.key] ? 'border-current' : 'border-slate-200'}`}>
+                    <span className="text-[10px] font-bold uppercase tracking-wide">{layer.label}</span>
+                    <div className={`w-3.5 h-3.5 rounded-full flex items-center justify-center border ${ (filter as any)[layer.key] ? 'border-current' : 'border-slate-200'}`}>
                         { (filter as any)[layer.key] && <div className="w-2 h-2 rounded-full bg-current" /> }
                     </div>
                 </button>
@@ -174,7 +177,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Search Typeahead */}
         <div className="relative" ref={searchRef}>
-          <label className="block text-xs font-semibold text-slate-500 uppercase mb-2">{UI_PL.jump_to_knowledge}</label>
+          <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">{UI_PL.jump_to_knowledge}</label>
           <div className="relative">
             <input 
               type="text" 
@@ -182,12 +185,12 @@ const Sidebar: React.FC<SidebarProps> = ({
               value={searchQuery} 
               onFocus={() => setIsSearchOpen(true)}
               onChange={(e) => { setSearchQuery(e.target.value); setIsSearchOpen(true); }} 
-              className="w-full pl-8 pr-3 py-2 border border-slate-300 rounded-md text-sm outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" 
+              className="w-full pl-8 pr-3 py-2 border border-slate-200 rounded-xl text-xs outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-slate-50" 
             />
-            <svg className="w-4 h-4 text-slate-400 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            <svg className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
           </div>
           {isSearchOpen && searchResults.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-md shadow-xl z-50 overflow-hidden max-h-64 overflow-y-auto">
+            <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-xl shadow-2xl z-50 overflow-hidden max-h-64 overflow-y-auto">
               {searchResults.map((res) => (
                 <button 
                   key={res.id} 
@@ -199,13 +202,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                   className="w-full text-left px-4 py-3 hover:bg-slate-50 border-b border-slate-100 last:border-0 group transition-colors"
                 >
                   <div className="flex justify-between items-center mb-0.5">
-                    <span className="text-sm font-bold text-slate-700 group-hover:text-blue-600 transition-colors">{res.label}</span>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 px-1.5 py-0.5 bg-slate-100 rounded flex items-center">
+                    <span className="text-xs font-bold text-slate-700 group-hover:text-blue-600 transition-colors">{res.label}</span>
+                    <span className="text-[9px] uppercase font-black text-slate-300 px-1.5 py-0.5 bg-slate-50 rounded flex items-center">
                         {renderTypeIcon(res.type)}
                         {(UI_PL as any)[res.type] || res.type}
                     </span>
                   </div>
-                  {res.chapterTitle && <div className="text-[10px] text-slate-400 italic">W: {res.chapterTitle}</div>}
+                  {res.chapterTitle && <div className="text-[9px] text-slate-400 italic">W: {res.chapterTitle}</div>}
                 </button>
               ))}
             </div>
@@ -213,22 +216,22 @@ const Sidebar: React.FC<SidebarProps> = ({
         </div>
 
         {/* Hide Answers Toggle */}
-        <div className="p-3 bg-orange-50 rounded-lg border border-orange-100 flex items-center justify-between">
-            <label className="text-xs font-bold text-orange-700 uppercase">{UI_PL.hide_answers}</label>
-            <button onClick={() => setFilter({ ...filter, hideAnswers: !filter.hideAnswers })} className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors ${filter.hideAnswers ? 'bg-orange-600' : 'bg-slate-300'}`}>
-              <span className={`inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${filter.hideAnswers ? 'translate-x-6' : 'translate-x-1'}`} />
+        <div className="p-3 bg-orange-50 rounded-xl border border-orange-100 flex items-center justify-between">
+            <label className="text-[10px] font-black text-orange-700 uppercase tracking-widest">{UI_PL.hide_answers}</label>
+            <button onClick={() => setFilter({ ...filter, hideAnswers: !filter.hideAnswers })} className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${filter.hideAnswers ? 'bg-orange-600' : 'bg-slate-300'}`}>
+              <span className={`inline-block h-3 w-3 transform rounded-full bg-white transition-transform ${filter.hideAnswers ? 'translate-x-5' : 'translate-x-1'}`} />
             </button>
         </div>
 
         {/* Explore Mode Filters */}
         {mode === ViewMode.Explore && (
           <div className="space-y-4 pt-4 border-t border-slate-100">
-            <label className="block text-xs font-semibold text-slate-500 uppercase">{UI_PL.visible_node_types}</label>
+            <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest">{UI_PL.visible_node_types}</label>
             <div className="grid grid-cols-2 gap-2">
               {[NodeType.Chapter, NodeType.School, NodeType.Person, NodeType.Experiment].map(type => (
-                <label key={type} className="flex items-center space-x-2 text-xs text-slate-700 bg-slate-50 p-1.5 rounded border border-slate-100 cursor-pointer hover:bg-white transition-all">
-                  <input type="checkbox" checked={filter.types[type] || false} onChange={() => handleTypeChange(type)} className="rounded text-blue-600" />
-                  <span className="capitalize">{(UI_PL as any)[type] || type}</span>
+                <label key={type} className="flex items-center space-x-2 text-[10px] text-slate-700 bg-slate-50 p-2 rounded-lg border border-slate-100 cursor-pointer hover:bg-white transition-all">
+                  <input type="checkbox" checked={filter.types[type] || false} onChange={() => handleTypeChange(type)} className="rounded text-blue-600 border-slate-300" />
+                  <span className="capitalize font-bold">{(UI_PL as any)[type] || type}</span>
                 </label>
               ))}
             </div>
@@ -238,11 +241,11 @@ const Sidebar: React.FC<SidebarProps> = ({
         {/* Story Mode: Chapter List */}
         {mode === ViewMode.Story && (
           <div className="pt-4 border-t border-slate-100">
-            <label className="block text-xs font-semibold text-slate-500 uppercase mb-2">Rozdziały</label>
+            <label className="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Rozdziały</label>
             <div className="space-y-1">
               {chapters.map(c => (
-                <button key={c.chapter_id} onClick={() => onSelectChapter(c.chapter_id)} className={`w-full text-left px-3 py-2 rounded text-xs transition-all ${activeChapterId === c.chapter_id ? 'bg-blue-50 text-blue-700 font-bold border-l-4 border-blue-600 shadow-sm' : 'text-slate-600 hover:bg-slate-50 border-l-4 border-transparent'}`}>
-                  <span className="truncate">{c.title}</span>
+                <button key={c.chapter_id} onClick={() => onSelectChapter(c.chapter_id)} className={`w-full text-left px-3 py-2.5 rounded-xl text-[11px] transition-all ${activeChapterId === c.chapter_id ? 'bg-blue-600 text-white font-bold shadow-md' : 'text-slate-600 hover:bg-slate-50'}`}>
+                  <span className="truncate block">{c.title}</span>
                 </button>
               ))}
             </div>
@@ -251,11 +254,8 @@ const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Footer actions */}
         <div className="pt-4 border-t border-slate-100 space-y-4">
-          <div>
-            <label className="block text-[10px] font-bold text-slate-400 uppercase mb-2">{UI_PL.patch_data}</label>
-            <input type="file" accept=".csv" onChange={handleFileUpload} className="block w-full text-[10px] text-slate-500 file:mr-4 file:py-1 file:px-2 file:rounded file:border-0 file:text-[10px] file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100" />
-          </div>
-          <button onClick={onReset} className="w-full py-2 bg-slate-100 hover:bg-slate-200 text-slate-500 rounded text-xs font-bold uppercase tracking-wide">{UI_PL.reset_default}</button>
+          <button onClick={onReset} className="w-full py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-500 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all">{UI_PL.reset_default}</button>
+          <div className="text-center opacity-30 text-[9px] font-bold uppercase tracking-widest pb-4">Atlas Psychologii v2.0</div>
         </div>
       </div>
     </div>
