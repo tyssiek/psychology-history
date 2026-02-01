@@ -1,136 +1,4307 @@
 [
-  { "source_id": "s_struct", "target_id": "ch05", "relation": "in_chapter", "note": "", "source_pages": "27-32" },
-  { "source_id": "s_func", "target_id": "ch06", "relation": "in_chapter", "note": "", "source_pages": "33-49" },
-  { "source_id": "s_gestalt", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "50-69" },
-  { "source_id": "s_behav", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "70-85" },
-  { "source_id": "s_psychodyn", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "86" },
-  { "source_id": "s_human", "target_id": "ch10", "relation": "in_chapter", "note": "", "source_pages": "97" },
-  { "source_id": "p_wundt", "target_id": "ch05", "relation": "in_chapter", "note": "", "source_pages": "25-27" },
-  { "source_id": "p_titchener", "target_id": "ch05", "relation": "in_chapter", "note": "", "source_pages": "32" },
-  { "source_id": "p_darwin", "target_id": "ch06", "relation": "in_chapter", "note": "", "source_pages": "33-37" },
-  { "source_id": "p_james", "target_id": "ch06", "relation": "in_chapter", "note": "", "source_pages": "40-47;74" },
-  { "source_id": "p_woodworth", "target_id": "ch06", "relation": "in_chapter", "note": "", "source_pages": "45-46" },
-  { "source_id": "p_lewin", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "66-69" },
-  { "source_id": "p_zeigarnik", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "69" },
-  { "source_id": "p_owsiankina", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "69" },
-  { "source_id": "p_thorndike", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "70-72" },
-  { "source_id": "p_pavlov", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "73" },
-  { "source_id": "p_watson", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "74" },
-  { "source_id": "p_skinner", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "70;80-82" },
-  { "source_id": "p_hull", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "76" },
-  { "source_id": "p_bandura", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "83" },
-  { "source_id": "p_rotter", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "83" },
-  { "source_id": "p_seligman", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "84" },
-  { "source_id": "p_maier", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "84" },
-  { "source_id": "p_richter", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "85" },
-  { "source_id": "p_freud", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "89-90" },
-  { "source_id": "p_adler", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "96" },
-  { "source_id": "p_jung", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "96" },
-  { "source_id": "p_rogers", "target_id": "ch10", "relation": "in_chapter", "note": "", "source_pages": "97" },
-  { "source_id": "p_maslow", "target_id": "ch10", "relation": "in_chapter", "note": "", "source_pages": "97" },
-  { "source_id": "p_vonosten", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "p_stumpf", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "p_pfungst", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "p_heinrich", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "112" },
-  { "source_id": "p_twardowski", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "112-113" },
-  { "source_id": "p_abramowski", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "112;115" },
-  { "source_id": "p_weryho", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "112" },
-  { "source_id": "p_witwicki", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "113;115" },
-  { "source_id": "p_kreutz", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "113" },
-  { "source_id": "p_szewczuk", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "114" },
-  { "source_id": "p_szuman", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "114" },
-  { "source_id": "p_baley", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "116" },
-  { "source_id": "p_blachowski", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "117" },
-  { "source_id": "p_czezowski", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "118" },
-  { "source_id": "p_dybowski", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "118" },
-  { "source_id": "p_zawadzki", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "118" },
-  { "source_id": "p_ochorowicz", "target_id": "ch12", "relation": "in_chapter", "note": "", "source_pages": "113;119-127" },
-  { "source_id": "e_hans", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "e_puzzlebox", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "e_lawofeffect", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "72" },
-  { "source_id": "e_classcond", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "73" },
-  { "source_id": "e_littlealbert", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "75" },
-  { "source_id": "e_zeigarnik", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "69" },
-  { "source_id": "e_owsiankina", "target_id": "ch07", "relation": "in_chapter", "note": "", "source_pages": "69" },
-  { "source_id": "e_loc", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "83" },
-  { "source_id": "e_learnedhelpless", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "84" },
-  { "source_id": "e_richter", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "85" },
-  { "source_id": "e_milgram", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "e_stanford", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "e_rosenhan", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "e_landis", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "m_intros", "target_id": "ch05", "relation": "in_chapter", "note": "", "source_pages": "27-32" },
-  { "source_id": "m_clinobs", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "86" },
-  { "source_id": "m_freeassoc", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "90" },
-  { "source_id": "m_dreams", "target_id": "ch09", "relation": "in_chapter", "note": "", "source_pages": "90" },
-  { "source_id": "m_operant", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "78-82" },
-  { "source_id": "m_modeling", "target_id": "ch08", "relation": "in_chapter", "note": "", "source_pages": "83" },
-  { "source_id": "m_irb", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "p_milgram", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "p_zimbardo", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "p_rosenhan", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "p_landis", "target_id": "ch11", "relation": "in_chapter", "note": "", "source_pages": "105" },
-  { "source_id": "p_huxley", "target_id": "ch06", "relation": "in_chapter", "note": "", "source_pages": "37" },
-  { "source_id": "p_wundt", "target_id": "s_struct", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "25-27" },
-  { "source_id": "p_titchener", "target_id": "s_struct", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "32" },
-  { "source_id": "p_darwin", "target_id": "s_func", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "33-37" },
-  { "source_id": "p_james", "target_id": "s_func", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "40-47;74" },
-  { "source_id": "p_woodworth", "target_id": "s_func", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "45-46" },
-  { "source_id": "p_lewin", "target_id": "s_gestalt", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "66-69" },
-  { "source_id": "p_zeigarnik", "target_id": "s_gestalt", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "69" },
-  { "source_id": "p_owsiankina", "target_id": "s_gestalt", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "69" },
-  { "source_id": "p_thorndike", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "70-72" },
-  { "source_id": "p_pavlov", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "73" },
-  { "source_id": "p_watson", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "74" },
-  { "source_id": "p_skinner", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "70;80-82" },
-  { "source_id": "p_hull", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "76" },
-  { "source_id": "p_bandura", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "83" },
-  { "source_id": "p_rotter", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "83" },
-  { "source_id": "p_seligman", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "84" },
-  { "source_id": "p_maier", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "84" },
-  { "source_id": "p_richter", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "85" },
-  { "source_id": "p_freud", "target_id": "s_psychodyn", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "89-90" },
-  { "source_id": "p_adler", "target_id": "s_psychodyn", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "96" },
-  { "source_id": "p_jung", "target_id": "s_psychodyn", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "96" },
-  { "source_id": "p_rogers", "target_id": "s_human", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "97" },
-  { "source_id": "p_maslow", "target_id": "s_human", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "97" },
-  { "source_id": "p_vonosten", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "72" },
-  { "source_id": "p_stumpf", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "72" },
-  { "source_id": "p_pfungst", "target_id": "s_behav", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "72" },
-  { "source_id": "p_huxley", "target_id": "s_func", "relation": "member_of", "note": "Osoba omawiana w ramach tego nurtu w wykładzie.", "source_pages": "37" },
-  { "source_id": "e_hans", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "72" },
-  { "source_id": "e_puzzlebox", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "72" },
-  { "source_id": "e_lawofeffect", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "72" },
-  { "source_id": "e_classcond", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "73" },
-  { "source_id": "e_littlealbert", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "75" },
-  { "source_id": "e_zeigarnik", "target_id": "s_gestalt", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "69" },
-  { "source_id": "e_owsiankina", "target_id": "s_gestalt", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "69" },
-  { "source_id": "e_loc", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "83" },
-  { "source_id": "e_learnedhelpless", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "84" },
-  { "source_id": "e_richter", "target_id": "s_behav", "relation": "example_in", "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.", "source_pages": "85" },
-  { "source_id": "m_intros", "target_id": "s_struct", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "27-32" },
-  { "source_id": "m_clinobs", "target_id": "s_psychodyn", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "86" },
-  { "source_id": "m_freeassoc", "target_id": "s_psychodyn", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "90" },
-  { "source_id": "m_dreams", "target_id": "s_psychodyn", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "90" },
-  { "source_id": "m_operant", "target_id": "s_behav", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "78-82" },
-  { "source_id": "m_modeling", "target_id": "s_behav", "relation": "method_in", "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.", "source_pages": "83" },
-  { "source_id": "p_witwicki", "target_id": "p_wundt", "relation": "studied_with", "note": "Studiował w Lipsku pod kierunkiem Wundta.", "source_pages": "113" },
-  { "source_id": "p_ochorowicz", "target_id": "p_wundt", "relation": "influenced_by", "note": "Łączył wiedzę nabytą w laboratorium Wundta z innymi doświadczeniami.", "source_pages": "113" },
-  { "source_id": "p_darwin", "target_id": "s_func", "relation": "precursor_of", "note": "Slajd \"Prekursorzy funkcjonalizmu\" opisuje Darwina jako kontekst funkcjonalizmu.", "source_pages": "33" },
-  { "source_id": "e_hans", "target_id": "p_stumpf", "relation": "studied_by", "note": "Konia badał psycholog Carl Stumpf.", "source_pages": "72" },
-  { "source_id": "e_hans", "target_id": "p_pfungst", "relation": "studied_by", "note": "Konia badał doktorant Oskar Pfungst.", "source_pages": "72" },
-  { "source_id": "e_puzzlebox", "target_id": "p_thorndike", "relation": "studied_by", "note": "Thorndike badał koty w skrzynce problemowej.", "source_pages": "72" },
-  { "source_id": "e_lawofeffect", "target_id": "p_thorndike", "relation": "introduced_by", "note": "Prawo efektu 1898 r. w kontekście badań Thorndike’a.", "source_pages": "72" },
-  { "source_id": "e_classcond", "target_id": "p_pavlov", "relation": "studied_by", "note": "Warunkowanie klasyczne w kontekście badań Pawłowa.", "source_pages": "73" },
-  { "source_id": "e_littlealbert", "target_id": "p_watson", "relation": "studied_by", "note": "Badanie \"Albert i biały szczur\" omawiane przy Watsonie.", "source_pages": "75" },
-  { "source_id": "e_zeigarnik", "target_id": "p_zeigarnik", "relation": "introduced_by", "note": "Efekt Zeigarnik omawiany wraz z autorką.", "source_pages": "69" },
-  { "source_id": "e_owsiankina", "target_id": "p_owsiankina", "relation": "introduced_by", "note": "Efekt Owsiankiny omawiany wraz z autorką.", "source_pages": "69" },
-  { "source_id": "e_loc", "target_id": "p_rotter", "relation": "introduced_by", "note": "Poczucie umiejscowienia kontroli (1966) przy Rotterze.", "source_pages": "83" },
-  { "source_id": "e_learnedhelpless", "target_id": "p_seligman", "relation": "studied_by", "note": "Wyuczona bezradność (1967) w slajdach z nazwiskami autorów.", "source_pages": "84" },
-  { "source_id": "e_learnedhelpless", "target_id": "p_maier", "relation": "studied_by", "note": "Wyuczona bezradność (1967) w slajdach z nazwiskami autorów.", "source_pages": "84" },
-  { "source_id": "e_richter", "target_id": "p_richter", "relation": "studied_by", "note": "Badania Richtera nad \"topieniem się\".", "source_pages": "85" },
-  { "source_id": "e_milgram", "target_id": "p_milgram", "relation": "studied_by", "note": "Milgram, 1965: posłuszeństwo wobec autorytetu.", "source_pages": "105" },
-  { "source_id": "e_stanford", "target_id": "p_zimbardo", "relation": "studied_by", "note": "Zimbardo, 1970: więzienie Stanford.", "source_pages": "105" },
-  { "source_id": "e_rosenhan", "target_id": "p_rosenhan", "relation": "studied_by", "note": "Rosenhan, 1973: pseudopacjenci.", "source_pages": "105" },
-  { "source_id": "e_landis", "target_id": "p_landis", "relation": "studied_by", "note": "Carney Landis, 1924: emocje i wyraz twarzy.", "source_pages": "105" }
+  {
+    "source_id": "c_iv_dv",
+    "target_id": "m_experiment",
+    "relation": "concept_in",
+    "note": "Rozróżnienie używane w opisie eksperymentu.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "c_iv_dv",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "c_naukowosc_psychologii",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "5"
+  },
+  {
+    "source_id": "m_case_study",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Metoda omówiona w tym rozdziale.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "m_experiment",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Metoda omówiona w tym rozdziale.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "m_observation",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Metoda omówiona w tym rozdziale.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "m_participant_observation",
+    "target_id": "ch02",
+    "relation": "in_chapter",
+    "note": "Metoda omówiona w tym rozdziale.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "m_participant_observation",
+    "target_id": "m_observation",
+    "relation": "subtype_of",
+    "note": "Obserwacja uczestnicząca jest szczególnym przypadkiem obserwacji.",
+    "source_pages": "6"
+  },
+  {
+    "source_id": "c_confirmatory_bias",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "c_prawo_yerkesa_dodsona",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Prawo przywołane w tym rozdziale.",
+    "source_pages": "20-21"
+  },
+  {
+    "source_id": "c_przyslowia_sprzeczne",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "9-13"
+  },
+  {
+    "source_id": "c_pseudouzasadnianie",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Koncepcja przywołana w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "c_psych_potoczna",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "7-8"
+  },
+  {
+    "source_id": "c_regresja_do_sredniej",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "19"
+  },
+  {
+    "source_id": "c_samoutrudnianie",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Koncepcja przywołana w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "c_stopa_w_drzwiach",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Technika przywołana w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "ctx_confirm_kliniczne",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "16"
+  },
+  {
+    "source_id": "ctx_confirm_uprzedzenia",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "16"
+  },
+  {
+    "source_id": "ctx_cukier_sol_telepatia",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Ilustracja użyta w tym rozdziale.",
+    "source_pages": "17-18"
+  },
+  {
+    "source_id": "e_cialdini_tanszy_towar",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Badanie/temat przywołany w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "e_deci_ryan_nagroda",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Badanie/temat przywołany w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "e_latane_pomoc",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Badanie/temat przywołany w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "e_ringelmann_grupowa_wydajnosc",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Badanie/temat przywołany w tym rozdziale.",
+    "source_pages": "20"
+  },
+  {
+    "source_id": "e_snyder_swann_1978",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "p_galton",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "Osoba wymieniona w tym rozdziale.",
+    "source_pages": "19"
+  },
+  {
+    "source_id": "p_snyder",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "p_swann",
+    "target_id": "ch03",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "c_regresja_do_sredniej",
+    "target_id": "p_galton",
+    "relation": "introduced_by",
+    "note": "Model regresji do średniej przypisany Galtonowi.",
+    "source_pages": "19"
+  },
+  {
+    "source_id": "e_snyder_swann_1978",
+    "target_id": "p_snyder",
+    "relation": "studied_by",
+    "note": "Badanie Snyder i Swann (1978) - autorzy/realizatorzy opisanego wywiadu.",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "e_snyder_swann_1978",
+    "target_id": "p_swann",
+    "relation": "studied_by",
+    "note": "Badanie Snyder i Swann (1978) - autorzy/realizatorzy opisanego wywiadu.",
+    "source_pages": "14-16"
+  },
+  {
+    "source_id": "c_trojpodzial_intelekt_uczucia_wola",
+    "target_id": "c_filozofia_umyslu_xvii",
+    "relation": "concept_in",
+    "note": "Trójpodział pojawia się jako element nauczania filozofii umysłu.",
+    "source_pages": "22"
+  },
+  {
+    "source_id": "c_filozofia_umyslu_xvii",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Kontekst omówiony w tym rozdziale.",
+    "source_pages": "22"
+  },
+  {
+    "source_id": "c_fizjonomika",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_frenologia",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_mesmeryzm",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_psychologia_praktyczna_od_zawsze",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "22"
+  },
+  {
+    "source_id": "c_spirytualizm",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_trojpodzial_intelekt_uczucia_wola",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Pojęcie omówione w tym rozdziale.",
+    "source_pages": "22"
+  },
+  {
+    "source_id": "ctx_pierwsi_psychologowie",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Kontekst omówiony w tym rozdziale.",
+    "source_pages": "22"
+  },
+  {
+    "source_id": "p_cesare_lombroso",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Osoba wymieniona w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "p_franz_gall",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Osoba wymieniona w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "p_franz_mesmer",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Osoba wymieniona w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "p_johann_lavater",
+    "target_id": "ch04",
+    "relation": "in_chapter",
+    "note": "Osoba wymieniona w tym rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_frenologia",
+    "target_id": "p_franz_gall",
+    "relation": "introduced_by",
+    "note": "Twórca frenologii podany w rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_mesmeryzm",
+    "target_id": "p_franz_mesmer",
+    "relation": "introduced_by",
+    "note": "Twórca mesmeryzmu podany w rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_fizjonomika",
+    "target_id": "p_johann_lavater",
+    "relation": "introduced_by",
+    "note": "Twórca fizjonomiki podany w rozdziale.",
+    "source_pages": "23"
+  },
+  {
+    "source_id": "c_apercepcja",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "28"
+  },
+  {
+    "source_id": "c_asocjacja",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "c_blad_bodzca",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "31"
+  },
+  {
+    "source_id": "c_dosw_bezposrednie_posrednie",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "26"
+  },
+  {
+    "source_id": "c_krytyka_introspekcji",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "28-29"
+  },
+  {
+    "source_id": "c_skladniki_swiadomosci",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "c_umysl_vs_swiadomosc",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "c_wlasciwosci_elementow_swiadomosci",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "c_woluntaryzm",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "28-30"
+  },
+  {
+    "source_id": "c_zasady_introspekcji",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "29"
+  },
+  {
+    "source_id": "ctx_anty_zastosowania",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "ctx_instytut_lipsk_1882",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_kurs_psych_fizj_1867",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_lab_lipsk_1879",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "ctx_philosophische_studien_1881",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_principles_ppp",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_trening_10000_introspekcji",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "30"
+  },
+  {
+    "source_id": "m_intros",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "27-32"
+  },
+  {
+    "source_id": "p_ebbinghaus",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "p_hume",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "p_mill",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "p_titchener",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "p_wundt",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "25-27"
+  },
+  {
+    "source_id": "s_struct",
+    "target_id": "ch05",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "27-32"
+  },
+  {
+    "source_id": "p_ochorowicz",
+    "target_id": "p_wundt",
+    "relation": "influenced_by",
+    "note": "Łączył wiedzę nabytą w laboratorium Wundta z innymi doświadczeniami.",
+    "source_pages": "113"
+  },
+  {
+    "source_id": "p_titchener",
+    "target_id": "p_wundt",
+    "relation": "influenced_by",
+    "note": "Titchener był uczniem Wundta; jego strukturalizm wyrasta z programu Wundta, choć przesuwa nacisk na opis jakościowy.",
+    "source_pages": "31-32"
+  },
+  {
+    "source_id": "c_blad_bodzca",
+    "target_id": "p_titchener",
+    "relation": "introduced_by",
+    "note": "Błąd bodźca omawiany przy metodzie introspekcyjnej w ujęciu Titchenera.",
+    "source_pages": "31"
+  },
+  {
+    "source_id": "c_umysl_vs_swiadomosc",
+    "target_id": "p_titchener",
+    "relation": "introduced_by",
+    "note": "Rozróżnienie „umysł” vs „świadomość” omawiane w kontekście Titchenera.",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "c_wlasciwosci_elementow_swiadomosci",
+    "target_id": "p_titchener",
+    "relation": "introduced_by",
+    "note": "Własności elementów świadomości omawiane w kontekście Titchenera.",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "c_apercepcja",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Apercepcja omawiana w ramach woluntaryzmu Wundta.",
+    "source_pages": "28"
+  },
+  {
+    "source_id": "c_dosw_bezposrednie_posrednie",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Rozróżnienie doświadczenia bezpośredniego i pośredniego omawiane w kontekście Wundta.",
+    "source_pages": "26"
+  },
+  {
+    "source_id": "c_woluntaryzm",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Woluntaryzm (aktywna rola umysłu) omawiany w ujęciu Wundta.",
+    "source_pages": "28-30"
+  },
+  {
+    "source_id": "ctx_instytut_lipsk_1882",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Pracownia Wundta stała się Instytutem Psychologii w 1882.",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_kurs_psych_fizj_1867",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Wundt prowadził kurs 'psychologia fizjologiczna' od 1867.",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_lab_lipsk_1879",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Założenie laboratorium badawczego w Lipsku w 1879.",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "ctx_philosophische_studien_1881",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Wundt rozpoczął wydawanie czasopisma w 1881 (później 'Psychologische Studien').",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_principles_ppp",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Książka powstała na podstawie wykładów Wundta z kursu 'psychologia fizjologiczna'.",
+    "source_pages": "25"
+  },
+  {
+    "source_id": "ctx_trening_10000_introspekcji",
+    "target_id": "p_wundt",
+    "relation": "introduced_by",
+    "note": "Przykład wymagań treningu introspekcyjnego u Wundta (ok. 10 000 obserwacji).",
+    "source_pages": "30"
+  },
+  {
+    "source_id": "p_titchener",
+    "target_id": "s_struct",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "32"
+  },
+  {
+    "source_id": "p_wundt",
+    "target_id": "s_struct",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "25-27"
+  },
+  {
+    "source_id": "c_asocjacja",
+    "target_id": "s_struct",
+    "relation": "method_in",
+    "note": "W strukturalizmie (Wundt): zasady łączenia wrażeń i uczuć w struktury psychiczne.",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "c_skladniki_swiadomosci",
+    "target_id": "s_struct",
+    "relation": "method_in",
+    "note": "W strukturalizmie: podstawowe składniki świadomości to wrażenia i uczucia.",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "ctx_anty_zastosowania",
+    "target_id": "s_struct",
+    "relation": "method_in",
+    "note": "Postulat: psychologia jako nauka nie powinna redukować się do zastosowań.",
+    "source_pages": "27"
+  },
+  {
+    "source_id": "m_intros",
+    "target_id": "s_struct",
+    "relation": "method_in",
+    "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.",
+    "source_pages": "27-32"
+  },
+  {
+    "source_id": "p_hume",
+    "target_id": "p_wundt",
+    "relation": "precursor_of",
+    "note": "Wskazany jako prekursor idei Wundta (nauka o człowieku oparta na obserwacji i doświadczeniu).",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "p_mill",
+    "target_id": "p_wundt",
+    "relation": "precursor_of",
+    "note": "Wskazany jako prekursor idei Wundta (badanie praw następstwa stanów psychicznych poprzez obserwację i eksperyment sztuczny).",
+    "source_pages": "24"
+  },
+  {
+    "source_id": "p_witwicki",
+    "target_id": "p_wundt",
+    "relation": "studied_with",
+    "note": "Studiował w Lipsku pod kierunkiem Wundta.",
+    "source_pages": "113"
+  },
+  {
+    "source_id": "p_worcester",
+    "target_id": "p_wundt",
+    "relation": "studied_with",
+    "note": "Studiował u Wundta w Lipsku (wg slajdów).",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "ctx_funkcjonalna_nierownosc_kobiet",
+    "target_id": "c_hipoteza_zmiennosci",
+    "relation": "example_in",
+    "note": "Wątek społecznych konsekwencji hipotezy zmienności.",
+    "source_pages": "47-49"
+  },
+  {
+    "source_id": "ctx_hms_beagle",
+    "target_id": "p_darwin",
+    "relation": "example_in",
+    "note": "Wyprawa stanowi kontekst biograficzny i źródło obserwacji przyrodniczych.",
+    "source_pages": "34"
+  },
+  {
+    "source_id": "c_adaptacja",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "c_dobor_naturalny",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "c_hipoteza_zmiennosci",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "47-49"
+  },
+  {
+    "source_id": "c_koncepcja_lamarcka",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "c_nawyki",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_pragmatyzm",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_teoria_emocji_jamesa",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_walka_o_byt",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "ctx_funkcjonalna_nierownosc_kobiet",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "47-49"
+  },
+  {
+    "source_id": "ctx_hms_beagle",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "34"
+  },
+  {
+    "source_id": "m_metoda_porownawcza",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "p_calkins",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "47"
+  },
+  {
+    "source_id": "p_darwin",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "33-37"
+  },
+  {
+    "source_id": "p_hollingworth",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "49"
+  },
+  {
+    "source_id": "p_huxley",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "37"
+  },
+  {
+    "source_id": "p_james",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "40-47;74"
+  },
+  {
+    "source_id": "p_wallace",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "36"
+  },
+  {
+    "source_id": "p_woodworth",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "45-46"
+  },
+  {
+    "source_id": "p_woolley",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "Element omówiony w tym rozdziale.",
+    "source_pages": "48"
+  },
+  {
+    "source_id": "s_func",
+    "target_id": "ch06",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "33-49"
+  },
+  {
+    "source_id": "c_dobor_naturalny",
+    "target_id": "p_darwin",
+    "relation": "introduced_by",
+    "note": "Dobór naturalny przedstawiony jako kluczowa idea w perspektywie ewolucyjnej.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "c_walka_o_byt",
+    "target_id": "p_darwin",
+    "relation": "introduced_by",
+    "note": "Walka o byt jako element ram ewolucyjnych omawianych w rozdziale.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "c_nawyki",
+    "target_id": "p_james",
+    "relation": "introduced_by",
+    "note": "Wątek nawyków i plastyczności wiązany z ujęciem Jamesa.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_pragmatyzm",
+    "target_id": "p_james",
+    "relation": "introduced_by",
+    "note": "Pragmatyzm przypisany Jamesowi jako kryterium testowania idei przez konsekwencje praktyczne.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_teoria_emocji_jamesa",
+    "target_id": "p_james",
+    "relation": "introduced_by",
+    "note": "Teoria emocji Jamesa przedstawiona jako odwrócenie kolejności: ciało -> emocja.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "c_adaptacja",
+    "target_id": "s_func",
+    "relation": "introduced_by",
+    "note": "Adaptacja jest centralną ramą wyjaśniania funkcji procesów psychicznych w tym nurcie.",
+    "source_pages": "33-38"
+  },
+  {
+    "source_id": "p_darwin",
+    "target_id": "s_func",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "33-37"
+  },
+  {
+    "source_id": "p_huxley",
+    "target_id": "s_func",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "37"
+  },
+  {
+    "source_id": "p_james",
+    "target_id": "s_func",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "40-47;74"
+  },
+  {
+    "source_id": "p_woodworth",
+    "target_id": "s_func",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "45-46"
+  },
+  {
+    "source_id": "m_metoda_porownawcza",
+    "target_id": "s_func",
+    "relation": "method_in",
+    "note": "Metoda porównawcza pokazana jako ważna praktyka badawcza zgodna z postulatami funkcjonalizmu.",
+    "source_pages": "44"
+  },
+  {
+    "source_id": "p_wallace",
+    "target_id": "p_darwin",
+    "relation": "precursor_of",
+    "note": "Wskazany jako autor zarysu teorii ewolucji sformułowanego przed Darwinem.",
+    "source_pages": "36"
+  },
+  {
+    "source_id": "p_darwin",
+    "target_id": "s_func",
+    "relation": "precursor_of",
+    "note": "Slajd \"Prekursorzy funkcjonalizmu\" opisuje Darwina jako kontekst funkcjonalizmu.",
+    "source_pages": "33"
+  },
+  {
+    "source_id": "c_hipoteza_zmiennosci",
+    "target_id": "p_hollingworth",
+    "relation": "studied_by",
+    "note": "Rozległe badania empiryczne, które nie potwierdziły różnic postulowanych przez hipotezę.",
+    "source_pages": "49"
+  },
+  {
+    "source_id": "c_hipoteza_zmiennosci",
+    "target_id": "p_woolley",
+    "relation": "studied_by",
+    "note": "Badania nad różnicami płci i krytyka biologicznych interpretacji.",
+    "source_pages": "48"
+  },
+  {
+    "source_id": "p_calkins",
+    "target_id": "p_james",
+    "relation": "studied_with",
+    "note": "Wspierana przez W. Jamesa.",
+    "source_pages": "47"
+  },
+  {
+    "source_id": "c_insight",
+    "target_id": "p_kohler",
+    "relation": "associated_with",
+    "note": "Wgląd w rozwiązywaniu problemów omawiany przy Köhlerze.",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "c_life_space",
+    "target_id": "p_lewin",
+    "relation": "associated_with",
+    "note": "Przestrzeń życiowa jako element opisu pola u Lewina.",
+    "source_pages": "67-68"
+  },
+  {
+    "source_id": "c_kanizsa",
+    "target_id": "p_wertheimer",
+    "relation": "associated_with",
+    "note": "W rozdziale przykład (Kanizsa) pojawia się obok opisu percepcji całościowej u Wertheimera.",
+    "source_pages": "57"
+  },
+  {
+    "source_id": "c_figure_ground",
+    "target_id": "s_gestalt",
+    "relation": "concept_in",
+    "note": "",
+    "source_pages": "54-56"
+  },
+  {
+    "source_id": "c_holistic_perception",
+    "target_id": "s_gestalt",
+    "relation": "concept_in",
+    "note": "",
+    "source_pages": "53-58"
+  },
+  {
+    "source_id": "c_insight",
+    "target_id": "s_gestalt",
+    "relation": "concept_in",
+    "note": "",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "c_kanizsa",
+    "target_id": "s_gestalt",
+    "relation": "concept_in",
+    "note": "",
+    "source_pages": "57"
+  },
+  {
+    "source_id": "c_pragnanz",
+    "target_id": "s_gestalt",
+    "relation": "concept_in",
+    "note": "",
+    "source_pages": "58"
+  },
+  {
+    "source_id": "e_kohler_chimps",
+    "target_id": "s_gestalt",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "e_owsiankina",
+    "target_id": "s_gestalt",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "e_phi",
+    "target_id": "s_gestalt",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "51"
+  },
+  {
+    "source_id": "e_zeigarnik",
+    "target_id": "s_gestalt",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "c_field_theory",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "66-68"
+  },
+  {
+    "source_id": "c_figure_ground",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "54-56"
+  },
+  {
+    "source_id": "c_holistic_perception",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "53-58"
+  },
+  {
+    "source_id": "c_insight",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "c_kanizsa",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "57"
+  },
+  {
+    "source_id": "c_life_space",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "67-68"
+  },
+  {
+    "source_id": "c_pragnanz",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "58"
+  },
+  {
+    "source_id": "e_kohler_chimps",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "e_owsiankina",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "e_phi",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "51"
+  },
+  {
+    "source_id": "e_zeigarnik",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_ehrenfels",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "52"
+  },
+  {
+    "source_id": "p_koffka",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "53"
+  },
+  {
+    "source_id": "p_kohler",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "53,65"
+  },
+  {
+    "source_id": "p_lewin",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "66-69"
+  },
+  {
+    "source_id": "p_mach",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "52"
+  },
+  {
+    "source_id": "p_owsiankina",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_wertheimer",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "51-57"
+  },
+  {
+    "source_id": "p_zeigarnik",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "s_gestalt",
+    "target_id": "ch07",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "50-69"
+  },
+  {
+    "source_id": "p_ehrenfels",
+    "target_id": "s_gestalt",
+    "relation": "influenced",
+    "note": "Jakości postaci (Gestaltqualitäten) jako ważne źródło myślenia Gestalt.",
+    "source_pages": "52"
+  },
+  {
+    "source_id": "p_mach",
+    "target_id": "s_gestalt",
+    "relation": "influenced",
+    "note": "Wymieniony jako jedno ze źródeł idei prowadzących do Gestalt.",
+    "source_pages": "52"
+  },
+  {
+    "source_id": "e_kohler_chimps",
+    "target_id": "p_kohler",
+    "relation": "introduced_by",
+    "note": "Badania na szympansach omawiane przy Köhlerze.",
+    "source_pages": "65"
+  },
+  {
+    "source_id": "c_field_theory",
+    "target_id": "p_lewin",
+    "relation": "introduced_by",
+    "note": "Teoria pola omawiana jako ujęcie Lewina.",
+    "source_pages": "66-68"
+  },
+  {
+    "source_id": "e_owsiankina",
+    "target_id": "p_owsiankina",
+    "relation": "introduced_by",
+    "note": "Efekt Owsiankiny omawiany wraz z autorką.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "e_phi",
+    "target_id": "p_wertheimer",
+    "relation": "introduced_by",
+    "note": "Zjawisko phi w rozdziale wiązane z Wertheimerem.",
+    "source_pages": "51"
+  },
+  {
+    "source_id": "e_zeigarnik",
+    "target_id": "p_zeigarnik",
+    "relation": "introduced_by",
+    "note": "Efekt Zeigarnik omawiany wraz z autorką.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_koffka",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Klasyczny przedstawiciel psychologii postaci.",
+    "source_pages": "53"
+  },
+  {
+    "source_id": "p_kohler",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Klasyczny przedstawiciel psychologii postaci.",
+    "source_pages": "53"
+  },
+  {
+    "source_id": "p_lewin",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "66-69"
+  },
+  {
+    "source_id": "p_owsiankina",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_wertheimer",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Klasyczny przedstawiciel psychologii postaci.",
+    "source_pages": "53"
+  },
+  {
+    "source_id": "p_zeigarnik",
+    "target_id": "s_gestalt",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "c_life_space",
+    "target_id": "c_field_theory",
+    "relation": "part_of",
+    "note": "",
+    "source_pages": "67-68"
+  },
+  {
+    "source_id": "e_owsiankina",
+    "target_id": "c_field_theory",
+    "relation": "related_to",
+    "note": "Efekt omawiany w kontekście napięcia i dążenia do dokończenia działania.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "e_zeigarnik",
+    "target_id": "c_field_theory",
+    "relation": "related_to",
+    "note": "Efekt omawiany w kontekście napięcia i dążenia do domknięcia działania.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_owsiankina",
+    "target_id": "p_lewin",
+    "relation": "student_of",
+    "note": "W rozdziale efekty Zeigarnik i Owsiankiny przedstawione jako nazwane od uczennic Lewina.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "p_zeigarnik",
+    "target_id": "p_lewin",
+    "relation": "student_of",
+    "note": "W rozdziale efekty Zeigarnik i Owsiankiny przedstawione jako nazwane od uczennic Lewina.",
+    "source_pages": "69"
+  },
+  {
+    "source_id": "c_animal_psychology",
+    "target_id": "e_learnedhelpless",
+    "relation": "example_in",
+    "note": "Przykład: wyuczona bezradność",
+    "source_pages": "129"
+  },
+  {
+    "source_id": "c_animal_psychology",
+    "target_id": "e_richter",
+    "relation": "example_in",
+    "note": "Przykład: badania Richtera",
+    "source_pages": "130"
+  },
+  {
+    "source_id": "c_enwironmentalizm",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "c_sr",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "70-71"
+  },
+  {
+    "source_id": "c_wzmocnienie",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "71"
+  },
+  {
+    "source_id": "e_classcond",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "73"
+  },
+  {
+    "source_id": "e_hans",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_lawofeffect",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_learnedhelpless",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "e_littlealbert",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_loc",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "e_peter_rabbits",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_puzzlebox",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_richter",
+    "target_id": "s_behav",
+    "relation": "example_in",
+    "note": "Przykład/badanie omawiane przy tym nurcie w wykładzie.",
+    "source_pages": "85"
+  },
+  {
+    "source_id": "c_behavior_modification",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_cognitive_maps",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_empty_organism",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "77"
+  },
+  {
+    "source_id": "c_enwironmentalizm",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "c_expectancy_value",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_intervening_vars",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_law_of_acquisition",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "80"
+  },
+  {
+    "source_id": "c_low_control_discouragement",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_purposeful_behav",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_self_efficacy",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_social_cognitive_theory",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_social_control_program",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_social_learning_theory",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_sr",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "70-71"
+  },
+  {
+    "source_id": "c_teaching_machine",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_vicarious_reinforcement",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "c_walden_two",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_wzmocnienie",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "71"
+  },
+  {
+    "source_id": "ctx_esp_socjobehaw",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83-85"
+  },
+  {
+    "source_id": "e_classcond",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "73"
+  },
+  {
+    "source_id": "e_hans",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_lawofeffect",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_learnedhelpless",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "e_littlealbert",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_loc",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "e_peter_rabbits",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_puzzlebox",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_richter",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "85"
+  },
+  {
+    "source_id": "m_hypothetico_deductive",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "m_modeling",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "m_operant",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "78-82"
+  },
+  {
+    "source_id": "m_reinforcement_schedules",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "81"
+  },
+  {
+    "source_id": "p_baldwin",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "p_bandura",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "p_cover_jones",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "p_hull",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "p_maier",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "p_pavlov",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "73"
+  },
+  {
+    "source_id": "p_pfungst",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_rayner",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "74-75"
+  },
+  {
+    "source_id": "p_richter",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "85"
+  },
+  {
+    "source_id": "p_rotter",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "p_seligman",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "p_skinner",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "70;80-82"
+  },
+  {
+    "source_id": "p_stumpf",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_thorndike",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "70-72"
+  },
+  {
+    "source_id": "p_tolman",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "p_vonosten",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_watson",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "74"
+  },
+  {
+    "source_id": "s_behav",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "70-85"
+  },
+  {
+    "source_id": "s_neobehav",
+    "target_id": "ch08",
+    "relation": "in_chapter",
+    "note": "Nurt omawiany jako rozwinięcie behawioryzmu w rozdziale.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "p_watson",
+    "target_id": "p_baldwin",
+    "relation": "influenced_by",
+    "note": "Zachęcił Watsona do pracy na Uniwersytecie Johna Hopkinsa.",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "s_human",
+    "target_id": "s_behav",
+    "relation": "influenced_by",
+    "note": "Reakcja na podejścia behawiorystyczne opisane jako „ubezwłasnowalniające”.",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_self_efficacy",
+    "target_id": "p_bandura",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane w rozdziale jako ważne dla działania i wytrwałości.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "c_social_cognitive_theory",
+    "target_id": "p_bandura",
+    "relation": "introduced_by",
+    "note": "Ujęcie łączone w rozdziale z pracami Bandury.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "c_social_learning_theory",
+    "target_id": "p_bandura",
+    "relation": "introduced_by",
+    "note": "W rozdziale wiązane też z ujęciem Bandury (modelowanie, wzmocnienie zastępcze).",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "c_vicarious_reinforcement",
+    "target_id": "p_bandura",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane w kontekście uczenia przez obserwację.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "m_modeling",
+    "target_id": "p_bandura",
+    "relation": "introduced_by",
+    "note": "Uczenie przez obserwację omawiane w rozdziale przy Bandurze.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "m_hypothetico_deductive",
+    "target_id": "p_hull",
+    "relation": "introduced_by",
+    "note": "Metoda pojawia się przy opisie Hull'a.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_expectancy_value",
+    "target_id": "p_rotter",
+    "relation": "introduced_by",
+    "note": "Zachowanie zależy od oczekiwań i subiektywnej wartości wzmocnień.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "c_social_learning_theory",
+    "target_id": "p_rotter",
+    "relation": "introduced_by",
+    "note": "W rozdziale wiązane z teorią Rottera (oczekiwania i wartość wzmocnienia).",
+    "source_pages": "83-84"
+  },
+  {
+    "source_id": "e_loc",
+    "target_id": "p_rotter",
+    "relation": "introduced_by",
+    "note": "Poczucie umiejscowienia kontroli (1966) przy Rotterze.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "c_behavior_modification",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Modyfikacja i kształtowanie zachowania wśród osiągnięć Skinnera.",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_empty_organism",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Hasło \"pustego organizmu\" pojawia się przy Skinnerze.",
+    "source_pages": "77"
+  },
+  {
+    "source_id": "c_law_of_acquisition",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Prawo nabywania opisane jako osiągnięcie Skinnera.",
+    "source_pages": "80"
+  },
+  {
+    "source_id": "c_social_control_program",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Program behawiorystycznej kontroli społeczeństwa wśród osiągnięć Skinnera.",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_teaching_machine",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Maszyna ucząca wymieniona wśród osiągnięć Skinnera.",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "c_walden_two",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "\"Walden Two\" wymienione wśród osiągnięć Skinnera.",
+    "source_pages": "82"
+  },
+  {
+    "source_id": "m_operant",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Warunkowanie sprawcze/instrumentalne omawiane w kontekście Skinnera.",
+    "source_pages": "77-82"
+  },
+  {
+    "source_id": "m_reinforcement_schedules",
+    "target_id": "p_skinner",
+    "relation": "introduced_by",
+    "note": "Rozkłady wzmocnień omawiane przy Skinnerze.",
+    "source_pages": "81"
+  },
+  {
+    "source_id": "e_lawofeffect",
+    "target_id": "p_thorndike",
+    "relation": "introduced_by",
+    "note": "Prawo efektu 1898 r. w kontekście badań Thorndike’a.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "c_cognitive_maps",
+    "target_id": "p_tolman",
+    "relation": "introduced_by",
+    "note": "Mapy poznawcze omawiane przy Tolmanie.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_intervening_vars",
+    "target_id": "p_tolman",
+    "relation": "introduced_by",
+    "note": "Zmienne pośredniczące między S i R omawiane przy Tolmanie.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_purposeful_behav",
+    "target_id": "p_tolman",
+    "relation": "introduced_by",
+    "note": "Behawioryzm celowościowy jako wersja rozwinięta przez Tolmana.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "c_enwironmentalizm",
+    "target_id": "p_watson",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "c_sr",
+    "target_id": "p_watson",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "74"
+  },
+  {
+    "source_id": "p_bandura",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "p_cover_jones",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "p_hull",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "p_maier",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "p_pavlov",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "73"
+  },
+  {
+    "source_id": "p_pfungst",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_rayner",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "p_richter",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "85"
+  },
+  {
+    "source_id": "p_rotter",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "p_seligman",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "p_skinner",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach behawioryzmu Skinnerowskiego w rozdziale.",
+    "source_pages": "77-82"
+  },
+  {
+    "source_id": "p_stumpf",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_thorndike",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "70-72"
+  },
+  {
+    "source_id": "p_vonosten",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "p_watson",
+    "target_id": "s_behav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach tego nurtu w wykładzie.",
+    "source_pages": "74"
+  },
+  {
+    "source_id": "p_hull",
+    "target_id": "s_neobehav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach neobehawioryzmu.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "p_tolman",
+    "target_id": "s_neobehav",
+    "relation": "member_of",
+    "note": "Osoba omawiana w ramach neobehawioryzmu.",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "m_modeling",
+    "target_id": "s_behav",
+    "relation": "method_in",
+    "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.",
+    "source_pages": "83"
+  },
+  {
+    "source_id": "m_operant",
+    "target_id": "s_behav",
+    "relation": "method_in",
+    "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.",
+    "source_pages": "78-82"
+  },
+  {
+    "source_id": "c_low_control_discouragement",
+    "target_id": "e_learnedhelpless",
+    "relation": "precursor_of",
+    "note": "Niskie poczucie kontroli może prowadzić do bierności charakterystycznej dla wyuczonej bezradności.",
+    "source_pages": "84-85"
+  },
+  {
+    "source_id": "s_behav",
+    "target_id": "s_neobehav",
+    "relation": "precursor_of",
+    "note": "Behawioryzm stanowi punkt wyjścia dla neobehawioryzmu (1930-1960).",
+    "source_pages": "76"
+  },
+  {
+    "source_id": "e_peter_rabbits",
+    "target_id": "p_cover_jones",
+    "relation": "studied_by",
+    "note": "",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_learnedhelpless",
+    "target_id": "p_maier",
+    "relation": "studied_by",
+    "note": "Wyuczona bezradność (1967) w slajdach z nazwiskami autorów.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "e_classcond",
+    "target_id": "p_pavlov",
+    "relation": "studied_by",
+    "note": "Warunkowanie klasyczne w kontekście badań Pawłowa.",
+    "source_pages": "73"
+  },
+  {
+    "source_id": "e_hans",
+    "target_id": "p_pfungst",
+    "relation": "studied_by",
+    "note": "Konia badał doktorant Oskar Pfungst.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_littlealbert",
+    "target_id": "p_rayner",
+    "relation": "studied_by",
+    "note": "Współautorka badania.",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "e_richter",
+    "target_id": "p_richter",
+    "relation": "studied_by",
+    "note": "Badania Richtera nad \"topieniem się\".",
+    "source_pages": "85"
+  },
+  {
+    "source_id": "e_learnedhelpless",
+    "target_id": "p_seligman",
+    "relation": "studied_by",
+    "note": "Wyuczona bezradność (1967) w slajdach z nazwiskami autorów.",
+    "source_pages": "84"
+  },
+  {
+    "source_id": "e_hans",
+    "target_id": "p_stumpf",
+    "relation": "studied_by",
+    "note": "Konia badał psycholog Carl Stumpf.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_puzzlebox",
+    "target_id": "p_thorndike",
+    "relation": "studied_by",
+    "note": "Thorndike badał koty w skrzynce problemowej.",
+    "source_pages": "72"
+  },
+  {
+    "source_id": "e_littlealbert",
+    "target_id": "p_watson",
+    "relation": "studied_by",
+    "note": "Badanie \"Albert i biały szczur\" omawiane przy Watsonie.",
+    "source_pages": "75"
+  },
+  {
+    "source_id": "c_anxiety_moral",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_anxiety_neurotic",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_anxiety_real",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_archetypes",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_castration_anxiety",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_collective_unconscious",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_compensation",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_defense_mechanisms",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_denial",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_displacement",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_dream_wish",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_ego",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "92-93"
+  },
+  {
+    "source_id": "c_freudian_slips",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_id",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "92"
+  },
+  {
+    "source_id": "c_individuation",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_inferiority_feelings",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "89|96"
+  },
+  {
+    "source_id": "c_mental_camp",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "c_oedipus_complex",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_power_striving",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_projection",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_psychoanalysis",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_psychopathology",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "c_psychosexual_stages",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_rationalization",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_reaction_formation",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "c_regression",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "94"
+  },
+  {
+    "source_id": "c_repression_principle",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_resistance",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_social_over_biological",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_somatic_camp",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "c_stage_adolescence",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_anal",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_latency",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_oral",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_phallic",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_sublimation",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "94"
+  },
+  {
+    "source_id": "c_superego",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "92"
+  },
+  {
+    "source_id": "c_transference",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_unconscious",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86-88"
+  },
+  {
+    "source_id": "c_unverifiable_theory",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "89"
+  },
+  {
+    "source_id": "m_catharsis",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_clinobs",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "m_dreams",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_freeassoc",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_hypnosis",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_slips",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "87|90"
+  },
+  {
+    "source_id": "m_word_association_test",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "p_adler",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "89-90"
+  },
+  {
+    "source_id": "p_jung",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "s_psychoanalysis",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "90-95"
+  },
+  {
+    "source_id": "s_psychodyn",
+    "target_id": "ch09",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "s_human",
+    "target_id": "s_psychodyn",
+    "relation": "influenced_by",
+    "note": "Reakcja na podejścia psychodynamiczne opisane jako mechanistyczne.",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_anxiety_moral",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_anxiety_neurotic",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_anxiety_real",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_defense_mechanisms",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_denial",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_displacement",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_ego",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "92-93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_id",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "92"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_projection",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_rationalization",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_reaction_formation",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "93"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_regression",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "94"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_repression_principle",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "90-94"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_sublimation",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "94"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "c_superego",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "92"
+  },
+  {
+    "source_id": "c_compensation",
+    "target_id": "p_adler",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane przy Adlerze w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_inferiority_feelings",
+    "target_id": "p_adler",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane przy Adlerze w wykładzie.",
+    "source_pages": "89|96"
+  },
+  {
+    "source_id": "c_power_striving",
+    "target_id": "p_adler",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane przy Adlerze w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_social_over_biological",
+    "target_id": "p_adler",
+    "relation": "introduced_by",
+    "note": "Pojęcie omawiane przy Adlerze w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_castration_anxiety",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_dream_wish",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Sny jako zamaskowane zaspokojenie pragnień - wątek omawiany przy Freudzie.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_freudian_slips",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Przejęzyczenia omawiane jako element psychoanalizy Freuda.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_oedipus_complex",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_psychoanalysis",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Psychoanaliza omawiana w związku z Freudem.",
+    "source_pages": "89-90"
+  },
+  {
+    "source_id": "c_psychosexual_stages",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Koncepcja etapów rozwoju psychoseksualnego w ujęciu Freuda.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_repression_principle",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Zasada wyparcia omawiana w kontekście psychoanalizy Freuda.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_resistance",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Opór omawiany w kontekście psychoanalizy Freuda.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_stage_adolescence",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_anal",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_latency",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_oral",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_stage_phallic",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Element rozwoju psychoseksualnego omawiany przy Freudzie.",
+    "source_pages": "95"
+  },
+  {
+    "source_id": "c_transference",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Przeniesienie omawiane w kontekście psychoanalizy Freuda.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_unconscious",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Nieświadomość jako kluczowy element podejścia omawianego przy Freudzie.",
+    "source_pages": "88-90"
+  },
+  {
+    "source_id": "m_catharsis",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Katharsis omawiana w kontekście wczesnych technik terapii psychoanalitycznej.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_hypnosis",
+    "target_id": "p_freud",
+    "relation": "introduced_by",
+    "note": "Hipnoza wymieniona jako część wczesnych technik psychoanalizy związanych z Freudem.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "c_archetypes",
+    "target_id": "p_jung",
+    "relation": "introduced_by",
+    "note": "Pojęcie/metoda omawiana przy Jung'u w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_collective_unconscious",
+    "target_id": "p_jung",
+    "relation": "introduced_by",
+    "note": "Pojęcie/metoda omawiana przy Jung'u w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_individuation",
+    "target_id": "p_jung",
+    "relation": "introduced_by",
+    "note": "Pojęcie/metoda omawiana przy Jung'u w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "m_word_association_test",
+    "target_id": "p_jung",
+    "relation": "introduced_by",
+    "note": "Pojęcie/metoda omawiana przy Jung'u w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_denial",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_displacement",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_projection",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_rationalization",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_reaction_formation",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_regression",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_repression_principle",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "c_sublimation",
+    "target_id": "c_defense_mechanisms",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "93-94"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "s_psychoanalysis",
+    "relation": "member_of",
+    "note": "Autor koncepcji psychoanalizy omawianej w rozdziale.",
+    "source_pages": "88-95"
+  },
+  {
+    "source_id": "c_psychoanalysis",
+    "target_id": "s_psychodyn",
+    "relation": "member_of",
+    "note": "Psychoanaliza omawiana jako podejście w ramach ujęcia psychodynamicznego.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "p_adler",
+    "target_id": "s_psychodyn",
+    "relation": "member_of",
+    "note": "Postać omawiana w nurcie psychodynamicznym.",
+    "source_pages": "89|96"
+  },
+  {
+    "source_id": "p_freud",
+    "target_id": "s_psychodyn",
+    "relation": "member_of",
+    "note": "Postać omawiana w nurcie psychodynamicznym.",
+    "source_pages": "88-95"
+  },
+  {
+    "source_id": "p_jung",
+    "target_id": "s_psychodyn",
+    "relation": "member_of",
+    "note": "Postać omawiana w nurcie psychodynamicznym.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "m_dreams",
+    "target_id": "s_psychoanalysis",
+    "relation": "method_in",
+    "note": "Technika/źródło obserwacji w psychoanalizie.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_freeassoc",
+    "target_id": "s_psychoanalysis",
+    "relation": "method_in",
+    "note": "Technika/źródło obserwacji w psychoanalizie.",
+    "source_pages": "90|96"
+  },
+  {
+    "source_id": "m_slips",
+    "target_id": "s_psychoanalysis",
+    "relation": "method_in",
+    "note": "Technika/źródło obserwacji w psychoanalizie.",
+    "source_pages": "87|90"
+  },
+  {
+    "source_id": "m_catharsis",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda omawiana w ramach podejścia psychodynamicznego w rozdziale.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_clinobs",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda/technika omawiana w kontekście psychodynamiki.",
+    "source_pages": "86"
+  },
+  {
+    "source_id": "m_dreams",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda/technika omawiana w kontekście psychodynamiki.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_freeassoc",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda/technika omawiana w kontekście psychodynamiki.",
+    "source_pages": "90|96"
+  },
+  {
+    "source_id": "m_hypnosis",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda omawiana w ramach podejścia psychodynamicznego w rozdziale.",
+    "source_pages": "90"
+  },
+  {
+    "source_id": "m_word_association_test",
+    "target_id": "s_psychodyn",
+    "relation": "method_in",
+    "note": "Metoda/pojęcie omawiane w ramach tego nurtu w wykładzie.",
+    "source_pages": "96"
+  },
+  {
+    "source_id": "c_client_centered_therapy",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_client_not_patient",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_conditions_of_worth",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_free_will",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_human_dignity",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_maslow_needs_hierarchy",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_belonging",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_esteem",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_physiological",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_safety",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_self_actualization",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_self_actualization",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_therapist_mirror",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_unconditional_positive_regard",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "ctx_humanism_response",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "p_maslow",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "p_rogers",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "s_human",
+    "target_id": "ch10",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "97-98"
+  },
+  {
+    "source_id": "c_maslow_needs_hierarchy",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_belonging",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_esteem",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_physiological",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_safety",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_self_actualization",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_self_actualization",
+    "target_id": "p_maslow",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_client_centered_therapy",
+    "target_id": "p_rogers",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_client_not_patient",
+    "target_id": "p_rogers",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_conditions_of_worth",
+    "target_id": "p_rogers",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_therapist_mirror",
+    "target_id": "p_rogers",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_unconditional_positive_regard",
+    "target_id": "p_rogers",
+    "relation": "introduced_by",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_need_belonging",
+    "target_id": "c_maslow_needs_hierarchy",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_esteem",
+    "target_id": "c_maslow_needs_hierarchy",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_physiological",
+    "target_id": "c_maslow_needs_hierarchy",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_safety",
+    "target_id": "c_maslow_needs_hierarchy",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_need_self_actualization",
+    "target_id": "c_maslow_needs_hierarchy",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_client_centered_therapy",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_client_not_patient",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_conditions_of_worth",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_free_will",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_human_dignity",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_maslow_needs_hierarchy",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "98"
+  },
+  {
+    "source_id": "c_self_actualization",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_therapist_mirror",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "c_unconditional_positive_regard",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "p_maslow",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97-98"
+  },
+  {
+    "source_id": "p_rogers",
+    "target_id": "s_human",
+    "relation": "member_of",
+    "note": "",
+    "source_pages": "97"
+  },
+  {
+    "source_id": "e_csa_meta",
+    "target_id": "c_publication_ethics",
+    "relation": "example_in",
+    "note": "Przykład kontrowersyjnej publikacji użyty do rozmowy o etyce rozpowszechniania wyników.",
+    "source_pages": "106-107"
+  },
+  {
+    "source_id": "e_cobb_1959",
+    "target_id": "c_sham_surgery",
+    "relation": "example_in",
+    "note": "Przykład badania z udawaną operacją (grupa placebo).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_freed_2001",
+    "target_id": "c_sham_surgery",
+    "relation": "example_in",
+    "note": "Przykład badania z udawaną operacją (grupa placebo).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_wray_2002",
+    "target_id": "c_sham_surgery",
+    "relation": "example_in",
+    "note": "Przykład badania z udawaną operacją (grupa placebo).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "c_animal_magnetism",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "c_ethics_committee",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "c_humanitarian_reform",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "101,104"
+  },
+  {
+    "source_id": "c_hypnosis",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "c_open_care",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "104"
+  },
+  {
+    "source_id": "c_poststudy_report",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "c_psychotropic_drugs",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "c_publication_ethics",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106-107"
+  },
+  {
+    "source_id": "c_risk_benefit",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "c_sham_surgery",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "c_withdrawal_right",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "c_written_consent",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "ctx_asylums_prisons",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "100,104"
+  },
+  {
+    "source_id": "ctx_bedlam",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "104"
+  },
+  {
+    "source_id": "ctx_christian_evil_spirits",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "99"
+  },
+  {
+    "source_id": "ctx_demonological",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "99,104"
+  },
+  {
+    "source_id": "ctx_greek_philosophers",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "99"
+  },
+  {
+    "source_id": "ctx_hebrew_punishment",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "99"
+  },
+  {
+    "source_id": "ctx_inquisition_witches",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "100"
+  },
+  {
+    "source_id": "e_cobb_1959",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_csa_meta",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106-107"
+  },
+  {
+    "source_id": "e_freed_2001",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_landis",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_milgram",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_rosenhan",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_stanford",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_wray_2002",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "m_debriefing",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "m_deception",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "m_ect",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "m_informed_consent",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "109"
+  },
+  {
+    "source_id": "m_irb",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "m_lobotomy",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "m_meta_analysis",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106-107"
+  },
+  {
+    "source_id": "m_soothing_chair",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_spinning_chair",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_talk_therapy",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "p_bauserman",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "p_braid",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "p_carletti",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "p_cobb",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "p_dix",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "101"
+  },
+  {
+    "source_id": "p_freed",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "p_landis",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "p_mesmer",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "p_milgram",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "p_moniz",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "p_pinel",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "101,104"
+  },
+  {
+    "source_id": "p_rind",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "p_rosenhan",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "p_rush",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "101-102"
+  },
+  {
+    "source_id": "p_tromovitch",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "p_vives",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "101"
+  },
+  {
+    "source_id": "p_worcester",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "p_wray",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "p_zimbardo",
+    "target_id": "ch11",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "c_hypnosis",
+    "target_id": "p_braid",
+    "relation": "introduced_by",
+    "note": "Neurohipnotyzm jako źródło terminu 'hipnoza' w slajdach.",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_ect",
+    "target_id": "p_carletti",
+    "relation": "introduced_by",
+    "note": "Elektrowstrząsy powiązane z Carlettim (1939).",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "c_animal_magnetism",
+    "target_id": "p_mesmer",
+    "relation": "introduced_by",
+    "note": "Koncepcja przypisana Mesmerowi w slajdach.",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_lobotomy",
+    "target_id": "p_moniz",
+    "relation": "introduced_by",
+    "note": "Lobotomia czołowa powiązana z Monizem (1936).",
+    "source_pages": "103"
+  },
+  {
+    "source_id": "c_humanitarian_reform",
+    "target_id": "p_pinel",
+    "relation": "introduced_by",
+    "note": "W slajdach Pinel jest przykładem reformy humanitarnej.",
+    "source_pages": "101,104"
+  },
+  {
+    "source_id": "m_soothing_chair",
+    "target_id": "p_rush",
+    "relation": "introduced_by",
+    "note": "Technika relaksacyjna omawiana przy Rushu.",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_spinning_chair",
+    "target_id": "p_rush",
+    "relation": "introduced_by",
+    "note": "Technika omawiana przy Rushu.",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_talk_therapy",
+    "target_id": "p_worcester",
+    "relation": "introduced_by",
+    "note": "W slajdach sesje terapii rozmową prowadzone przez Worcestera.",
+    "source_pages": "102"
+  },
+  {
+    "source_id": "m_meta_analysis",
+    "target_id": "e_csa_meta",
+    "relation": "method_in",
+    "note": "Meta-analiza jako podejście metodologiczne w tym przykładzie.",
+    "source_pages": "106-107"
+  },
+  {
+    "source_id": "e_csa_meta",
+    "target_id": "p_bauserman",
+    "relation": "studied_by",
+    "note": "Współautor publikacji (1998).",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "e_cobb_1959",
+    "target_id": "p_cobb",
+    "relation": "studied_by",
+    "note": "Autor przykładu badania (1959).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_freed_2001",
+    "target_id": "p_freed",
+    "relation": "studied_by",
+    "note": "Autor przykładu badania (2001).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_landis",
+    "target_id": "p_landis",
+    "relation": "studied_by",
+    "note": "Carney Landis, 1924: emocje i wyraz twarzy.",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_milgram",
+    "target_id": "p_milgram",
+    "relation": "studied_by",
+    "note": "Milgram, 1965: posłuszeństwo wobec autorytetu.",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_csa_meta",
+    "target_id": "p_rind",
+    "relation": "studied_by",
+    "note": "Współautor publikacji (1998).",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "e_rosenhan",
+    "target_id": "p_rosenhan",
+    "relation": "studied_by",
+    "note": "Rosenhan, 1973: pseudopacjenci.",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "e_csa_meta",
+    "target_id": "p_tromovitch",
+    "relation": "studied_by",
+    "note": "Współautor publikacji (1998).",
+    "source_pages": "106"
+  },
+  {
+    "source_id": "e_wray_2002",
+    "target_id": "p_wray",
+    "relation": "studied_by",
+    "note": "Autor przykładu badania (2002).",
+    "source_pages": "108"
+  },
+  {
+    "source_id": "e_stanford",
+    "target_id": "p_zimbardo",
+    "relation": "studied_by",
+    "note": "Zimbardo, 1970: więzienie Stanford.",
+    "source_pages": "105"
+  },
+  {
+    "source_id": "c_dusza_def_ochor",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "119"
+  },
+  {
+    "source_id": "c_pozytywizm_ochor",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "119"
+  },
+  {
+    "source_id": "c_psychologia_sadowa_1870",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "123"
+  },
+  {
+    "source_id": "c_psychologia_stosowana_1879",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "124"
+  },
+  {
+    "source_id": "ctx_kongres_psychologii_1889",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "125"
+  },
+  {
+    "source_id": "ctx_lwow_1909",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "127"
+  },
+  {
+    "source_id": "ctx_ochorowiczowka",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "127"
+  },
+  {
+    "source_id": "e_badania_tomczykowna",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "126"
+  },
+  {
+    "source_id": "m_abc_porzadnego_myslenia",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_edukacja_seksualna",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_lab_lwow_1904",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_lab_warsaw_1903",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_metodologia_ochor_1868",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "123"
+  },
+  {
+    "source_id": "m_personologia",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_ptp_1907",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_reminiscencja",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_teoria_kratyzmu",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_typy_woli",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_uwaga_przy_czytaniu",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "m_zludzenia_optyczne",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-118"
+  },
+  {
+    "source_id": "p_abramowski",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112;115"
+  },
+  {
+    "source_id": "p_baley",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "116"
+  },
+  {
+    "source_id": "p_blachowski",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "117"
+  },
+  {
+    "source_id": "p_czezowski",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "p_dybowski",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "p_heinrich",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112"
+  },
+  {
+    "source_id": "p_kreutz",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "113"
+  },
+  {
+    "source_id": "p_ochorowicz",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "113;119-127"
+  },
+  {
+    "source_id": "p_szewczuk",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "114"
+  },
+  {
+    "source_id": "p_szuman",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "114"
+  },
+  {
+    "source_id": "p_tomczykowna",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "126"
+  },
+  {
+    "source_id": "p_twardowski",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112-113"
+  },
+  {
+    "source_id": "p_weryho",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "112"
+  },
+  {
+    "source_id": "p_witwicki",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "113;115"
+  },
+  {
+    "source_id": "p_zawadzki",
+    "target_id": "ch12",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "m_edukacja_seksualna",
+    "target_id": "p_blachowski",
+    "relation": "introduced_by",
+    "note": "W rozdziale wskazany jako pionier edukacji seksualnej.",
+    "source_pages": "117"
+  },
+  {
+    "source_id": "ctx_lwow_1909",
+    "target_id": "p_heinrich",
+    "relation": "introduced_by",
+    "note": "Sprzeciw wobec dyskusji nad zjawiskami.",
+    "source_pages": "127"
+  },
+  {
+    "source_id": "c_dusza_def_ochor",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "Definicja duszy jako zbioru zjawisk psychicznych.",
+    "source_pages": "119"
+  },
+  {
+    "source_id": "c_pozytywizm_ochor",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "Definicja pozytywizmu cytowana przy Ochorowiczu.",
+    "source_pages": "119"
+  },
+  {
+    "source_id": "c_psychologia_sadowa_1870",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "Autor pracy \"Psychologia sądowa\" (1870).",
+    "source_pages": "123"
+  },
+  {
+    "source_id": "c_psychologia_stosowana_1879",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "W prezentacji: prekursor psychologii stosowanej (1879).",
+    "source_pages": "124"
+  },
+  {
+    "source_id": "ctx_kongres_psychologii_1889",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "W prezentacji: inicjator kongresu w Paryżu (1889).",
+    "source_pages": "125"
+  },
+  {
+    "source_id": "ctx_lwow_1909",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "Odczyt o promieniach sztywnych i Xx.",
+    "source_pages": "127"
+  },
+  {
+    "source_id": "m_metodologia_ochor_1868",
+    "target_id": "p_ochorowicz",
+    "relation": "introduced_by",
+    "note": "Autor pracy o metodologii badań psychologicznych (1868).",
+    "source_pages": "123"
+  },
+  {
+    "source_id": "ctx_lwow_1909",
+    "target_id": "p_twardowski",
+    "relation": "introduced_by",
+    "note": "Propozycja powołania komisji weryfikującej.",
+    "source_pages": "127"
+  },
+  {
+    "source_id": "m_abc_porzadnego_myslenia",
+    "target_id": "p_twardowski",
+    "relation": "introduced_by",
+    "note": "Autor tekstu dydaktycznego dla szkół.",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "m_lab_lwow_1904",
+    "target_id": "p_twardowski",
+    "relation": "introduced_by",
+    "note": "Pracownia we Lwowie (1904) opisywana w kontekście ośrodka związanego z Twardowskim.",
+    "source_pages": "112"
+  },
+  {
+    "source_id": "m_lab_warsaw_1903",
+    "target_id": "p_weryho",
+    "relation": "introduced_by",
+    "note": "Pracownia w Warszawie (1903) wiązana z Weryhą.",
+    "source_pages": "113"
+  },
+  {
+    "source_id": "m_ptp_1907",
+    "target_id": "p_weryho",
+    "relation": "introduced_by",
+    "note": "Zebranie inauguracyjne odbyło się w jego mieszkaniu.",
+    "source_pages": "113"
+  },
+  {
+    "source_id": "m_teoria_kratyzmu",
+    "target_id": "p_witwicki",
+    "relation": "introduced_by",
+    "note": "Twórca teorii kratyzmu.",
+    "source_pages": "115"
+  },
+  {
+    "source_id": "m_reminiscencja",
+    "target_id": "p_abramowski",
+    "relation": "studied_by",
+    "note": "Zjawisko opisane w rozdziale w kontekście jego badań.",
+    "source_pages": "115"
+  },
+  {
+    "source_id": "m_typy_woli",
+    "target_id": "p_dybowski",
+    "relation": "studied_by",
+    "note": "W rozdziale typy woli są łączone z jego koncepcjami.",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "m_uwaga_przy_czytaniu",
+    "target_id": "p_heinrich",
+    "relation": "studied_by",
+    "note": "Badania uwagi w kontekście czytania.",
+    "source_pages": "114"
+  },
+  {
+    "source_id": "e_badania_tomczykowna",
+    "target_id": "p_ochorowicz",
+    "relation": "studied_by",
+    "note": "Badania medium w stanie hipnozy i opisy promieni (1909).",
+    "source_pages": "126"
+  },
+  {
+    "source_id": "m_zludzenia_optyczne",
+    "target_id": "p_szewczuk",
+    "relation": "studied_by",
+    "note": "Praca doktorska o złudzeniach optycznych (1938).",
+    "source_pages": "114"
+  },
+  {
+    "source_id": "m_personologia",
+    "target_id": "p_zawadzki",
+    "relation": "studied_by",
+    "note": "W rozdziale personologia jest kojarzona z jego pracą.",
+    "source_pages": "118"
+  },
+  {
+    "source_id": "c_animal_psychology",
+    "target_id": "e_calhoun_utopia",
+    "relation": "example_in",
+    "note": "Przykład: przeludnienie i behavioral sink",
+    "source_pages": "132"
+  },
+  {
+    "source_id": "c_animal_psychology",
+    "target_id": "e_capuchin_token_economy",
+    "relation": "example_in",
+    "note": "Przykład: ekonomia żetonowa",
+    "source_pages": "135-136"
+  },
+  {
+    "source_id": "c_3r",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "c_animal_assisted_therapy",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "c_animal_ethics",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "c_animal_psychology",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "c_koko_robin",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "e_calhoun_utopia",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "e_capuchin_token_economy",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "e_learnedhelpless",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "Przykład badań na zwierzętach",
+    "source_pages": "129-130"
+  },
+  {
+    "source_id": "e_richter",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "Przykład badań na zwierzętach",
+    "source_pages": "129-130"
+  },
+  {
+    "source_id": "p_calhoun",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "p_keith_chen",
+    "target_id": "ch13",
+    "relation": "in_chapter",
+    "note": "",
+    "source_pages": "128-137"
+  },
+  {
+    "source_id": "c_3r",
+    "target_id": "c_animal_ethics",
+    "relation": "method_in",
+    "note": "Praktyczne ramy ograniczania szkód",
+    "source_pages": "134"
+  },
+  {
+    "source_id": "e_calhoun_utopia",
+    "target_id": "p_calhoun",
+    "relation": "studied_by",
+    "note": "",
+    "source_pages": "132"
+  },
+  {
+    "source_id": "e_capuchin_token_economy",
+    "target_id": "p_keith_chen",
+    "relation": "studied_by",
+    "note": "Chen, 2005",
+    "source_pages": "135-136"
+  }
 ]
